@@ -1,1 +1,1 @@
-/home/guillaume/.vimrc
+/home/guillaume/.config/haskell-vim-now/.vimrc
