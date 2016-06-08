@@ -147,7 +147,7 @@ call unite#filters#matcher_default#use(['matcher_fuzzy'])
 nnoremap <silent> <leader>ff :<C-u>Unite -smartcase -no-split -buffer-name=files  -start-insert buffer file_rec/async:! file_mru<cr>
 nnoremap <silent> <leader>fp :<C-u>Unite -smartcase -no-split -buffer-name=buffer -start-insert buffer file_rec/git<cr>
 nnoremap <silent> <leader>bb :<C-u>Unite -smartcase -no-split -buffer-name=files  -start-insert buffer<cr>
-nnoremap <silent> <leader>pp :<C-u>Unite -smartcase -no-split -buffer-name=files -default-action=lcd -start-insert<cr>
+nnoremap <silent> <leader>pp :<C-u>Unite -smartcase -no-split -buffer-name=files -default-action=lcd -start-insert directory<cr>
 nnoremap <silent> <leader>l :<C-u>Unite -smartcase -no-split -buffer-name=outline -start-insert line<cr>
 nnoremap <silent> <leader><C-v> :<C-u>Unite -smartcase -no-split -buffer-name=yank  -start-insert  history/yank<cr>
 nnoremap <silent> <leader>hm :<C-u>Unite -smartcase -no-split -buffer-name=mappings -start-insert -verbose mapping<cr>
